@@ -106,6 +106,9 @@ dependencies {
 
     // fastjson
     implementation "com.alibaba:fastjson:${FASTJSON_VERSION}"
+
+    // hutool
+    api 'cn.hutool:hutool-all:5.8.16'
 }
 
 jar {

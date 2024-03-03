@@ -1,12 +1,15 @@
 package com.isxcode.star.udf;
 
-import org.apache.spark.sql.api.java.UDF2;
+import cn.hutool.core.date.DateUtil;
+import org.apache.spark.sql.api.java.UDF1;
 
-public class Func implements UDF2<Integer, Integer, Integer> {
+import java.util.Date;
+
+public class Func implements UDF1<Date, String> {
 
     @Override
-    public Integer call(Integer s1, Integer s2) {
+    public String call(Date s1) {
 
-        return s1 + s2;
+        return DateUtil.formatChineseDate(s1, true, true);
     }
 }
