@@ -16,8 +16,8 @@ cp ./build/libs/func1.jar ~/Downloads
 
 ### 函数信息
 
-> 该函数需要配合hutool依赖
-> 下载链接：https://repo1.maven.org/maven2/cn/hutool/hutool-all/5.8.27/hutool-all-5.8.27.jar
+> 该函数需要配合hutool依赖 </br>
+> 下载链接：https://repo1.maven.org/maven2/cn/hutool/hutool-all/5.8.27/hutool-all-5.8.27.jar </br>
 > 上传到资源中心
 
 - 名称：to_chinese_date
