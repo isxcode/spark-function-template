@@ -109,6 +109,9 @@ dependencies {
 
     // hutool
     api 'cn.hutool:hutool-all:5.8.16'
+
+    // 国密算法
+    implementation 'org.bouncycastle:bcpkix-jdk18on:1.78.1'
 }
 
 jar {

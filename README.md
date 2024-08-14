@@ -27,3 +27,13 @@ cp ./build/libs/func1.jar ~/Downloads
 - 输入类型：date
 - 功能：将时间格式转成中文
 - 测试sql： select to_chinese_date(now())
+
+#### 函数列表
+
+- Func : 将时间格式转成中文 : select 
+- Func1 : 对称加密,select func1("zhangsan","secret")
+- Func2 : 对接解密,select func2("sflsfuahsdfjlqewr==","secret")
+- Func3 : 身份证脱敏,select func3("310240199909102395",1,3)
+- Func4 : 手机号码脱敏,select func4("13187961213")
+> Func5需要额外下载依赖：https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk18on/1.78.1/bcprov-jdk18on-1.78.1.jar
+- Func5 : 国密随机加密,select func5("zhangsan")
