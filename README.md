@@ -20,8 +20,8 @@ cp ./build/libs/spark-custom-func.jar ~/Downloads
 - 名称：to_chinese_date
 - 类型：UDF
 - 类名：com.isxcode.star.udf.Func
-- 返回类型：string
 - 输入类型：date
+- 返回类型：string
 - 备注：将时间格式转成中文
 - 测试sql： select to_chinese_date(now())
 
