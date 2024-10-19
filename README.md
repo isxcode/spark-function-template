@@ -15,14 +15,14 @@ cd spark-function-template
 cp ./build/libs/spark-custom-func.jar ~/Downloads
 ```
 
-### 函数信息
+### 新建函数
 
 - 名称：to_chinese_date
 - 类型：UDF
 - 类名：com.isxcode.star.udf.Func
 - 返回类型：string
 - 输入类型：date
-- 功能：将时间格式转成中文
+- 备注：将时间格式转成中文
 - 测试sql： select to_chinese_date(now())
 
 #### 函数列表
