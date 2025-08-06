@@ -1,4 +1,4 @@
-package com.isxcode.star.udf;
+package com.isxcode.spark.udf;
 
 import cn.hutool.core.date.DateUtil;
 import org.apache.spark.sql.api.java.UDF1;
